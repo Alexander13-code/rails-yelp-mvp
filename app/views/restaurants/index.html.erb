@@ -4,4 +4,5 @@
     <li><%= link_to restaurant.name, restaurant_path(restaurant.id) %>
     </li>
   <% end %>
+  <p><%= link_to 'create a restaurant', new_restaurant_path(@restaurant)%></p>
 </ul>

@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#Add_Rest{
+  margin-top: 3%;
+  border: 0.10rem solid rgb(214, 214, 214);
+  height: 40px;
+  width: 200px;
+
+}
